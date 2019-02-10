@@ -13,8 +13,7 @@ public class Mobile {
 
 	public void allMobileModel() {
 		for(int i=0; i<mobileModel.length; i++)
-		System.out.println(mobileModel[i]);  
-		
+		System.out.println(mobileModel[i]); 
 	}
 	
 	
@@ -32,13 +31,13 @@ public class Mobile {
 		default:   System.out.println("not available");
 		break;
 		}
-		/*if(type.equals("android")) {
+		if(mobileType.equals("android")) {
 			System.out.println("download from android playstore");
-		} else if(type.equals("apple")) {
+		} else if(mobileType.equals("apple")) {
 			System.out.println("download from apple store");  
 		} else {
 			System.out.println("not available");  
-		}*/
+		}
 	}
 
 

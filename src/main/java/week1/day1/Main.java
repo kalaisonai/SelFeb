@@ -4,9 +4,21 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		for(int a=1; a<=5; a++) {
-			System.out.println(a); 
+		int[] num = {1,5,7,9,7};
+		
+		for(int eachNum : num) {
+			System.out.println(eachNum); 
 		}
+		
+		
+		
+		
+		
+		
+		
+		/*for(int a=1; a<=5; a++) {
+			System.out.println(a); 
+		}*/
 		
 		
 		
